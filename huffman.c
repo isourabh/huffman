@@ -91,7 +91,7 @@ main()
   encode(data,en,codes);
   printf("printing encoded data in compressed format\n");
   for(i=0;i<strlen(data);i++)
-    printf("%c",en[i]);
+    printf("%d",en[i]);
   printf("\nprinting encoded data in uncompressed format\n");
   for(i=0;i<strlen(data);i++)
     puts(e[i]);
